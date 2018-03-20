@@ -1,6 +1,4 @@
 function pageInit(type) {
-	alert("Hello World");
-
 	nlapiSetFieldValue('custentity_sdr_employee_code', 'A');
 
 	var supervisorName = nlapiGetFieldText('supervisor');
