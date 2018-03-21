@@ -12,6 +12,4 @@ function pageInit(type) {
 	} else {
 		nlapiDisableField('custentity_sdr_coupon_code', true);
 	}
-
-	stop = 'stop';
 }
