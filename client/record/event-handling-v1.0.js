@@ -1,6 +1,7 @@
 function saveRecord() {
 	var recordType = nlapiGetRecordType();
 
+	// Logging data
 	if (recordType == 'customer') {
 		var stCouponCode = nlapiGetFieldValue('custentity_sdr_coupon_code');
 		var stSupportEmail = nlapiGetFieldValue('custentity_sdr_support_email');
